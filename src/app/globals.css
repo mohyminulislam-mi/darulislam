@@ -1,0 +1,158 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@theme {
+  --color-primary: #123529;
+  --color-primary-light: #146c4b;
+  --color-primary-soft: #e9f7ef;
+  --color-primary-hover: #c69431;
+  --color-primary-text: #c69431;
+  --color-secondary: #f5efe1;
+  --color-accent: #c8a44d;
+  --color-border-dark: #0f5138;
+  --color-background-is: #faf6ec;
+  --color-islamic-green: #0b5d3b;
+  --color-islamic-green-light: #1f8a5b;
+  --color-islamic-gold: #c8a44d;
+}
+
+:root {
+  --background: #faf6ec;
+  --foreground: #10231b;
+  --primary: #123529;
+  --primary-hover: #c69431;
+  --primary-text: #c69431;
+  --primary-light: #146c4b;
+  --primary-soft: #e9f7ef;
+  --accent: #c8a44d;
+  --surface: #ffffff;
+  --surface-muted: #f3f8f4;
+  --border-soft: #dbe8df;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Noto Sans Bengali", "Hind Siliguri", "Nirmala UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Hind Siliguri", "Noto Sans Bengali", "Nirmala UI", sans-serif;
+}
+
+::selection {
+  background: #bfe8ce;
+  color: #123529;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(247, 251, 247, 0.72);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(11, 61, 46, 0.1);
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .shadow-islamic {
+    box-shadow: 0 4px 0 #123529;
+  }
+
+  .shadow-islamic-lg {
+    box-shadow: 0 8px 0 #123529;
+  }
+
+  .hover-shadow-islamic:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 0 #123529;
+  }
+}
+
+.bg-islamic-pattern {
+  background-color: var(--background);
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230a593a' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* -------- Testimonial------------ */
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  animation: marqueeScroll 30s linear infinite;
+}
+
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+/* pagination নিচে নামানো */
+.teacher-swiper .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+/* active dot green */
+.teacher-swiper .swiper-pagination-bullet {
+  background: #86efac;
+  /* light green */
+  opacity: 1;
+}
+
+.teacher-swiper .swiper-pagination-bullet-active {
+  background: #16a34a;
+  /* main green */
+  width: 20px;
+  border-radius: 10px;
+}
+
+/* navigation button color */
+.teacher-swiper .swiper-button-next,
+.teacher-swiper .swiper-button-prev {
+  color: #16a34a;
+}
+
+/* hover effect off */
+.teacher-swiper .swiper-button-next:hover,
+.teacher-swiper .swiper-button-prev:hover {
+  color: #16a34a;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

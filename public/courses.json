@@ -1,0 +1,445 @@
+[
+  {
+    "id": "QURAN-01",
+    "sectionId": 1,
+    "title": "সহীহ তিলাওয়াত ও তারতীল কোর্স",
+    "price": 650,
+    "oldPrice": 1300,
+    "image": "https://images.unsplash.com/photo-1609599006353-e629f1d50218?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "সহীহ কুরআন তিলাওয়াত ও তারতীল শিক্ষা",
+      "description": "শুদ্ধ ও সুন্দরভাবে কুরআন মাজীদ তিলাওয়াত শেখার জন্য প্র্যাক্টিক্যাল কোর্স।",
+      "admissionFee": 650,
+      "oldAdmissionFee": 1300,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "TILAWAT50",
+      "batchInfo": "নতুন ব্যাচ শীঘ্রই শুরু হবে",
+      "highlights": [
+        { "label": "সময়", "value": "৩ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৫ দিন" },
+        { "label": "উপহার", "value": "১টি কায়দা ও আমপারা" }
+      ]
+    }
+  },
+  {
+    "id": "QURAN-02",
+    "sectionId": 1,
+    "title": "উচ্চতর তাজভীদ মাস্টারক্লাস",
+    "price": 800,
+    "oldPrice": 1600,
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "উচ্চতর তাজভীদ ও মাখরাজ মাস্টারক্লাস",
+      "description": "মাখরাজ, সিফাত এবং ওয়াকফের নিয়মাবলী সহ কুরআনের বিশুদ্ধতম উচ্চারণ শৈলী অর্জন।",
+      "admissionFee": 800,
+      "oldAdmissionFee": 1600,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "TAJWEED50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "২ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৩ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "QURAN-03",
+    "sectionId": 1,
+    "title": "শর্ট-টার্ম হিফজুল কুরআন",
+    "price": 1200,
+    "oldPrice": 2400,
+    "image": "https://images.unsplash.com/photo-1609599006353-e629f1d50218?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "গুরুত্বপূর্ণ সূরা ও ৩০তম পারা হিফজ কোর্স",
+      "description": "সালাতে নিয়মিত পড়া হয় এমন গুরুত্বপূর্ণ সূরাসমূহ তাজভীদসহ মুখস্থ করার সুবিন্যস্ত পরিকল্পনা।",
+      "admissionFee": 1200,
+      "oldAdmissionFee": 2400,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "HIFZ50",
+      "batchInfo": "সীমিত আসন বাকি",
+      "highlights": [
+        { "label": "সময়", "value": "৪ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৪ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "QURAN-04",
+    "sectionId": 1,
+    "title": "তাফসীরুল কুরআন কোর্স",
+    "price": 900,
+    "oldPrice": 1800,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "নির্বাচিত সূরাসমূহের তাফসীর ও শানে নুযুল",
+      "description": "কুরআনের চিরন্তন বাণী ও জীবনমুখী শিক্ষা সরাসরি বোঝার জন্য নির্ভরযোগ্য তাফসীর অধ্যয়ন।",
+      "admissionFee": 900,
+      "oldAdmissionFee": 1800,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "TAFSEER50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "৩ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "২ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "SCHOOL-01",
+    "sectionId": 2,
+    "title": "শিশুদের নুরানী ও কায়দা শিক্ষা",
+    "price": 500,
+    "oldPrice": 1000,
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "সহজ পদ্ধতিতে শিশুদের নুরানী ও কায়দা শিক্ষা",
+      "description": "ছোট সোনামণিদের জন্য আনন্দের সাথে খেলার ছলে দ্বীনী ও কুরআন শিক্ষার হাতেখড়ি।",
+      "admissionFee": 500,
+      "oldAdmissionFee": 1000,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "KIDS50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "৬ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৪ দিন" },
+        { "label": "প্রতি ব্যাচে", "value": "২০ জন" }
+      ]
+    }
+  },
+  {
+    "id": "SCHOOL-02",
+    "sectionId": 2,
+    "title": "বুনিয়াদি দ্বীনী শিক্ষা",
+    "price": 600,
+    "oldPrice": 1200,
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "মুসলিম শিশুদের জন্য বুনিয়াদি দ্বীনী শিক্ষা",
+      "description": "মৌলিক ফরয ইবাদত, অজু-সালাতের প্র্যাক্টিক্যাল নিয়ম এবং ইসলামের পরিচয় পর্ব।",
+      "admissionFee": 600,
+      "oldAdmissionFee": 1200,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "DEEN50",
+      "batchInfo": "নতুন ব্যাচ চলমান",
+      "highlights": [
+        { "label": "সময়", "value": "৩ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৩ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "SCHOOL-03",
+    "sectionId": 2,
+    "title": "শুদ্ধ আকীদা ও বিশ্বাস",
+    "price": 450,
+    "oldPrice": 900,
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "আহলে সুন্নাত ওয়াল জামায়াত অনুযায়ী আকীদা পাঠ",
+      "description": "ঈমানের মূল স্তম্ভসমূহ এবং সঠিক ইসলামিক বিশ্বাসের বুনিয়াদ গড়ার সহজ কোর্স।",
+      "admissionFee": 450,
+      "oldAdmissionFee": 900,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "AQEEDAH50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "২ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "২ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "SCHOOL-04",
+    "sectionId": 2,
+    "title": "আদব ও আখলাক শিক্ষা",
+    "price": 400,
+    "oldPrice": 800,
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "উত্তম চরিত্র গঠন ও সুন্নতী আদব কায়দা",
+      "description": "দৈনন্দিন জীবনের শিষ্টাচার, মা-বাবার প্রতি কর্তব্য এবং সুন্দর সমাজ বিনির্মাণের নৈতিক শিক্ষা।",
+      "admissionFee": 400,
+      "oldAdmissionFee": 800,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "ADAB50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "২ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৩ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "MAHTAB-01",
+    "sectionId": 3,
+    "title": "বাদ আসর বিশেষ দ্বীনী ক্লাস",
+    "price": 450,
+    "oldPrice": 900,
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "স্কুলগামী শিক্ষার্থীদের জন্য বাদ আসর ইসলামিক মডিউল",
+      "description": "সাধারণ স্কুলে পড়াশোনার পাশাপাশি প্রতিদিন বিকেলে ইসলামিক পরিবেশে সময় কাটানোর কোর্স।",
+      "admissionFee": 450,
+      "oldAdmissionFee": 900,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "ASR50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "৩ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৫ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "MAHTAB-02",
+    "sectionId": 3,
+    "title": "প্রাত্যহিক মাসআলা-মাসাইল",
+    "price": 550,
+    "oldPrice": 1100,
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "দৈনন্দিন জীবনের প্রয়োজনীয় শরয়ী সমাধান",
+      "description": "পবিত্রতা, সালাত, কেনাবেচা এবং প্রাত্যহিক জীবনের অতীব জরুরি মাসআলা সমূহের সহজ সমাধান।",
+      "admissionFee": 550,
+      "oldAdmissionFee": 1100,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "MASALA50",
+      "batchInfo": "নতুন ব্যাচ",
+      "highlights": [
+        { "label": "সময়", "value": "২ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৩ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "MAHTAB-03",
+    "sectionId": 3,
+    "title": "মাসনূন দোয়া ও জিকির",
+    "price": 350,
+    "oldPrice": 700,
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "দৈনন্দিন আমলের মাসনূন দোয়া ও জিকির মুখস্থকরণ",
+      "description": "সকাল-সন্ধ্যার আমল, ঘুমানো, খাওয়া এবং বিভিন্ন সময়ের ১০০+ গুরুত্বপূর্ণ সুন্নতি দোয়া শিক্ষা।",
+      "admissionFee": 350,
+      "oldAdmissionFee": 700,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "DUA50",
+      "batchInfo": "চলমান",
+      "highlights": [
+        { "label": "সময়", "value": "১.৫ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৪ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "NESAB-01",
+    "sectionId": 4,
+    "title": "আরবি ভাষা ও নেসাব কোর্স",
+    "price": 1500,
+    "oldPrice": 3000,
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "পূর্ণাঙ্গ মাদানী নেসাব প্রিপারেটরি কোর্স",
+      "description": "আরবি ভাষা ও সাহিত্যের বুনিয়াদ তৈরি এবং উচ্চতর ইসলামিক শিক্ষার জন্য নেসাব ভিত্তিক বিশেষ ক্লাস।",
+      "admissionFee": 1500,
+      "oldAdmissionFee": 3000,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "MADANI50",
+      "batchInfo": "নতুন ব্যাচ শুরু",
+      "highlights": [
+        { "label": "সময়", "value": "১ বছর" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৫ দিন" },
+        { "label": "পরীক্ষা", "value": "সাপ্তাহিক ও মাসিক" }
+      ]
+    }
+  },
+  {
+    "id": "NESAB-02",
+    "sectionId": 4,
+    "title": "সিলেবাস ভিত্তিক আলিম প্রস্তুতি",
+    "price": 1200,
+    "oldPrice": 2400,
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "যুগোপযোগী সংক্ষিপ্ত সিলেবাস ভিত্তিক আলিম কোর্স",
+      "description": "ব্যস্ত ও পেশাজীবীদের জন্য কাস্টমাইজড এবং আধুনিক বিশ্বের সাথে মানানসই যুগোপযোগী পাঠ্যক্রম।",
+      "admissionFee": 1200,
+      "oldAdmissionFee": 2400,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "SYLLABUS50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "৬ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৩ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "NESAB-03",
+    "sectionId": 4,
+    "title": "সনদ ও একাডেমিক মূল্যায়ন",
+    "price": 1000,
+    "oldPrice": 2000,
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "ইসলামিক একাডেমিক ইভালুয়েশন ও সার্টিফিকেট কোর্স",
+      "description": "কোর্স সফলভাবে সমাপ্তির পর মেধার ভিত্তিতে প্রাতিষ্ঠানিক স্বীকৃতি ও গ্রহণযোগ্য শংসাপত্র প্রদান।",
+      "admissionFee": 1000,
+      "oldAdmissionFee": 2000,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "CERT50",
+      "batchInfo": "রেজিস্ট্রেশন চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "৩ মাস" },
+        { "label": "কোর্স শেষে", "value": "গ্রহণযোগ্য সার্টিফিকেট" }
+      ]
+    }
+  },
+  {
+    "id": "KITAB-01",
+    "sectionId": 5,
+    "title": "উচ্চতর কিতাব অধ্যয়ন কোর্স",
+    "price": 1800,
+    "oldPrice": 3600,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "হাদীস, ফিকহ ও উসূলে ফিকহের মূল আরবী কিতাব পাঠদান",
+      "description": "উচ্চতর ইসলামিক কিতাবসমূহের মূল টেক্সট (ইবারত) নিখুঁতভাবে পড়ার ও বোঝার যোগ্যতা অর্জন।",
+      "admissionFee": 1800,
+      "oldAdmissionFee": 3600,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "KITAB50",
+      "batchInfo": "সীমিত আসন",
+      "highlights": [
+        { "label": "সময়", "value": "৬ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৪ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "KITAB-02",
+    "sectionId": 5,
+    "title": "ফিকহী মাসআলার ব্যাখ্যা ক্লাস",
+    "price": 1100,
+    "oldPrice": 2200,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "জটিল ফিকহী কিতাবসমূহের গবেষণাধর্মী ব্যাখ্যা",
+      "description": "কঠিন ইবারতসমূহ অত্যন্ত সাবলীল ভাষায় ব্যাখ্যা বিশ্লেষণ ও সমসাময়িক সমস্যার সমাধান খোঁজা।",
+      "admissionFee": 1100,
+      "oldAdmissionFee": 2200,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "FIQH50",
+      "batchInfo": "চলমান",
+      "highlights": [
+        { "label": "সময়", "value": "৪ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "২ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "KITAB-03",
+    "sectionId": 5,
+    "title": "তালিমুল কিতাব ও ইলম চর্চা",
+    "price": 1300,
+    "oldPrice": 2600,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "ইসলামিক গভীর জ্ঞান ও ইলমী তারবিয়াত",
+      "description": "ইসলামের তাত্ত্বিক বিষয়গুলোর গভীর জ্ঞানার্জন এবং বিশুদ্ধ পন্থায় বড় বড় কিতাবের জ্ঞান আহরণ।",
+      "admissionFee": 1300,
+      "oldAdmissionFee": 2600,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "ILM50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "৫ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "৩ দিন" }
+      ]
+    }
+  },
+  {
+    "id": "CULTURE-01",
+    "sectionId": 6,
+    "title": "ইসলামিক অনুষ্ঠান ও সেমিনার",
+    "price": 300,
+    "oldPrice": 600,
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "জীবনমুখী ইসলামিক সেমিনার ও আলোচনা সভা",
+      "description": "নৈতিক অবক্ষয় রোধে এবং সমসাময়িক আধুনিক জীবনের নানান সংকট উত্তরণে প্রাজ্ঞ ওলামাদের গাইডলাইন।",
+      "admissionFee": 300,
+      "oldAdmissionFee": 600,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "EVENT50",
+      "batchInfo": "রেজিস্ট্রেশন চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "১ মাস" },
+        { "label": "ক্লাস/সেশন", "value": "৪টি বিশেষ সেমিনার" }
+      ]
+    }
+  },
+  {
+    "id": "CULTURE-02",
+    "sectionId": 6,
+    "title": "জাতীয় কেরাত ও গজল প্রতিযোগিতা",
+    "price": 250,
+    "oldPrice": 500,
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "কেরাত, হামদ-নাত ও কুইজ প্রতিযোগিতা গাইডলাইন",
+      "description": "শিক্ষার্থীদের সুপ্ত প্রতিভা বিকাশে কেরাত, গজল, কুইজ এবং তাৎক্ষণিক বক্তৃতা প্রস্তুতির বিশেষ ওয়ার্কশপ।",
+      "admissionFee": 250,
+      "oldAdmissionFee": 500,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "COMP50",
+      "batchInfo": "শুরু হতে যাচ্ছে",
+      "highlights": [
+        { "label": "সময়", "value": "২ সপ্তাহ" },
+        { "label": "পুরস্কার", "value": "আকর্ষণীয় ট্রফি ও কিতাব" }
+      ]
+    }
+  },
+  {
+    "id": "CULTURE-03",
+    "sectionId": 6,
+    "title": "সুস্থ সংস্কৃতি ও সমাজ বিনির্মাণ",
+    "price": 400,
+    "oldPrice": 800,
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+    "details": {
+      "fullTitle": "অপসংস্কৃতির বিপরীতে পজিティブ কালচার ডেভেলপমেন্ট",
+      "description": "তরুণ সমাজকে সুস্থ বিনোদন ও সামাজিক মনস্তাত্ত্বিক অবক্ষয় থেকে বাঁচানোর অনন্য কালচারাল কোর্স।",
+      "admissionFee": 400,
+      "oldAdmissionFee": 800,
+      "monthlyFee": null,
+      "discount": 50,
+      "coupon": "CULTURE50",
+      "batchInfo": "ভর্তি চলছে",
+      "highlights": [
+        { "label": "সময়", "value": "১ মাস" },
+        { "label": "সপ্তাহে ক্লাস", "value": "১ দিন" }
+      ]
+    }
+  }
+]

@@ -1,0 +1,383 @@
+{
+  "siteFeatures": [
+    {
+      "id": 1,
+      "title": "১০০% অরিজিনাল",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": 2,
+      "title": "সহজ রিটার্ন",
+      "icon": "RefreshCcw"
+    },
+    {
+      "id": 3,
+      "title": "দ্রুত ডেলিভারি",
+      "icon": "Truck"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "কুরআন শরীফ",
+      "price": 650,
+      "category": "Religious Book",
+      "image": "https://i.ibb.co.com/1f4vFQh9/360-F-263148731-URq-K7-TVJz0a1ja-V3-Iu-Ad-TBu-Xmoi4lc-A6.jpg",
+      "inStock": true,
+      "details": {
+        "description": "পরিষ্কার ছাপা এবং উন্নত মানের কাগজে মুদ্রিত নূরানী হাফেজি কুরআন শরীফ।",
+        "publisher": "এমদাদিয়া লাইব্রেরী",
+        "features": ["সহজ পাঠ্য", "আর্ট পেপার", "মজবুত বাইন্ডিং"],
+        "rating": 4.9
+      }
+    },
+    {
+      "id": 2,
+      "name": "তাসবিহ",
+      "price": 200,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/0jJJ8yMh/463087068-500611622945397-6536297165675071357-n-420x420.jpg",
+      "inStock": true,
+      "details": {
+        "description": "১০০ দানার উন্নত মানের ক্রিস্টাল তাসবিহ। যিকির করার জন্য অত্যন্ত আরামদায়ক।",
+        "material": "Crystal Stone",
+        "features": ["১০০ দানা", "আকর্ষণীয় রং", "দীর্ঘস্থায়ী সুতা"],
+        "rating": 4.7
+      }
+    },
+    {
+      "id": 3,
+      "name": "ইসলামিক বই (আদর্শ পরিবার)",
+      "price": 450,
+      "category": "Islamic Books",
+      "image": "https://i.ibb.co.com/KzXKdMKt/png-row-islamic-books-transparent-background-378502811.webp",
+      "inStock": true,
+      "details": {
+        "description": "পারিবারিক জীবনকে ইসলামী শরীয়ত মোতাবেক সাজানোর জন্য একটি আদর্শ নির্দেশিকা বই।",
+        "author": "শায়খ আব্দুল হামিদ আল মাদানি",
+        "features": ["সহজ ভাষা", "বাস্তবসম্মত সমাধান", "হার্ডকভার"],
+        "rating": 4.8
+      }
+    },
+    {
+      "id": 4,
+      "name": "আতর (মকসদ আল ওদ)",
+      "price": 550,
+      "category": "Fragrance",
+      "image": "https://i.ibb.co.com/rRR1Bstz/ramy-vicky-ator-3-ml-2.png",
+      "inStock": true,
+      "details": {
+        "description": "অ্যালকোহল মুক্ত অত্যন্ত মিষ্টি ও দীর্ঘস্থায়ী সুবাসের একটি ওদ আতর।",
+        "volume": "6ml",
+        "features": [
+          "অ্যালকোহল মুক্ত",
+          "দীর্ঘস্থায়ী সুঘ্রাণ",
+          "প্রাকৃতিক উপাদান"
+        ],
+        "rating": 4.5
+      }
+    },
+    {
+      "id": 5,
+      "name": "নামাযের চাদর",
+      "price": 400,
+      "category": "Clothing",
+      "image": "https://i.ibb.co.com/8g0CcrK3/pngtree-women-muslim-with-black-dress-png-image-5294699.png",
+      "inStock": true,
+      "details": {
+        "description": "আরামদায়ক কটন কাপড়ের তৈরি বড় সাইজের নামাযের চাদর।",
+        "material": "Pure Cotton",
+        "features": ["বড় সাইজ", "আরামদায়ক কাপড়", "সহজে ধোয়া যায়"],
+        "rating": 4.6
+      }
+    },
+    {
+      "id": 6,
+      "name": "সাদা টুপি",
+      "price": 150,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/0jJJ8yMh/463087068-500611622945397-6536297165675071357-n-420x420.jpg",
+      "inStock": true,
+      "details": {
+        "description": "সুতি সুতার নিখুঁত কাজ করা আরামদায়ক ও মার্জিত টুপি।",
+        "size": "Standard",
+        "features": ["সুতি সুতা", "নিখুঁত নকশা", "ঘাম শোষণকারী"],
+        "rating": 4.4
+      }
+    },
+    {
+      "id": 7,
+      "name": "তুর্কি জায়নামাজ",
+      "price": 1200,
+      "category": "Prayer Mat",
+      "image": "https://i.ibb.co.com/0jJJ8yMh/463087068-500611622945397-6536297165675071357-n-420x420.jpg",
+      "inStock": true,
+      "details": {
+        "description": "তুরস্ক থেকে আমদানিকৃত মখমলের তৈরি অত্যন্ত নরম ও আরামদায়ক জায়নামাজ।",
+        "origin": "Turkey",
+        "features": ["প্রিমিয়াম মখমল", "বড় সাইজ", "এন্টি-স্লিপ ডিজাইন"],
+        "rating": 4.9
+      }
+    },
+    {
+      "id": 8,
+      "name": "ডিজিটাল তাসবিহ কাউন্টার",
+      "price": 80,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/rRR1Bstz/ramy-vicky-ator-3-ml-2.png",
+      "inStock": true,
+      "details": {
+        "description": "সহজে যিকির গণনার জন্য ডিজিটাল এলইডি ডিসপ্লে তাসবিহ কাউন্টার।",
+        "features": ["এলইডি ডিসপ্লে", "অটো স্লিপ মোড", "রিসেট বাটন"],
+        "rating": 4.3
+      }
+    },
+    {
+      "id": 9,
+      "name": "রাহে বেলায়াত (বই)",
+      "price": 320,
+      "category": "Islamic Books",
+      "image": "https://i.ibb.co.com/KzXKdMKt/png-row-islamic-books-transparent-background-378502811.webp",
+      "inStock": true,
+      "details": {
+        "description": "ড. খন্দকার আব্দুল্লাহ জাহাঙ্গীর রচিত দুয়া ও যিকিরের অনন্য একটি বই।",
+        "author": "ড. খন্দকার আব্দুল্লাহ জাহাঙ্গীর",
+        "features": ["সহীহ দুয়া", "উন্নত কাগজ", "নির্ভরযোগ্য উৎস"],
+        "rating": 5.0
+      }
+    },
+    {
+      "id": 10,
+      "name": "প্রিমিয়াম খিমার",
+      "price": 850,
+      "category": "Clothing",
+      "image": "https://i.ibb.co.com/8g0CcrK3/pngtree-women-muslim-with-black-dress-png-image-5294699.png",
+      "inStock": true,
+      "details": {
+        "description": "জর্জেট কাপড়ের তৈরি মার্জিত এবং আরামদায়ক ডাবল পার্ট খিমার।",
+        "material": "Diamond Georgette",
+        "features": ["ফুল কভারেজ", "নরম কাপড়", "বিভিন্ন রঙ"],
+        "rating": 4.7
+      }
+    },
+    {
+      "id": 11,
+      "name": "হাজরে আসওয়াদ আতর",
+      "price": 450,
+      "category": "Fragrance",
+      "image": "https://i.ibb.co.com/rRR1Bstz/ramy-vicky-ator-3-ml-2.png",
+      "inStock": true,
+      "details": {
+        "description": "কাবার গিলাফের ঘ্রাণ সংবলিত অত্যন্ত জনপ্রিয় একটি আতর।",
+        "volume": "12ml",
+        "features": ["লং লাস্টিং", "মিষ্টি সুঘ্রাণ", "অ্যালকোহল মুক্ত"],
+        "rating": 4.8
+      }
+    },
+    {
+      "id": 12,
+      "name": "কাঠের রেহাল",
+      "price": 350,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/1f4vFQh9/360-F-263148731-URq-K7-TVJz0a1ja-V3-Iu-Ad-TBu-Xmoi4lc-A6.jpg",
+      "inStock": true,
+      "details": {
+        "description": "কুরআন পড়ার সুবিধার্থে টেকসই কাঠের তৈরি খোদাই করা সুন্দর রেহাল।",
+        "material": "Segun Wood",
+        "features": ["ফোল্ডিং সিস্টেম", "খোদাই করা নকশা", "টেকসই"],
+        "rating": 4.5
+      }
+    },
+    {
+      "id": 13,
+      "name": "সাদা সুতি পাঞ্জাবি",
+      "price": 1400,
+      "category": "Clothing",
+      "image": "https://i.ibb.co.com/8g0CcrK3/pngtree-women-muslim-with-black-dress-png-image-5294699.png",
+      "inStock": true,
+      "details": {
+        "description": "১০০% সুতি কাপড়ের তৈরি সিম্পল এবং ক্লাসিক সাদা পাঞ্জাবি।",
+        "material": "Pure Cotton",
+        "features": ["আরামদায়ক", "স্লিম ফিট", "ঈদ স্পেশাল"],
+        "rating": 4.6
+      }
+    },
+    {
+      "id": 14,
+      "name": "বুখারী শরীফ (১ম খণ্ড)",
+      "price": 750,
+      "category": "Islamic Books",
+      "image": "https://i.ibb.co.com/KzXKdMKt/png-row-islamic-books-transparent-background-378502811.webp",
+      "inStock": true,
+      "details": {
+        "description": "সহীহ বুখারী শরীফের বাংলা অনুবাদ ও ব্যাখ্যা।",
+        "publisher": "ইসলামিক ফাউন্ডেশন",
+        "features": ["সহীহ হাদিস", "হার্ডকভার", "স্পষ্ট ফন্ট"],
+        "rating": 5.0
+      }
+    },
+    {
+      "id": 15,
+      "name": "জুব্বা (আরবীয় স্টাইল)",
+      "price": 1850,
+      "category": "Clothing",
+      "image": "https://i.ibb.co.com/8g0CcrK3/pngtree-women-muslim-with-black-dress-png-image-5294699.png",
+      "inStock": true,
+      "details": {
+        "description": "প্রিমিয়াম কোয়ালিটির ফেব্রিক দিয়ে তৈরি আরবীয় ডিজাইনের জুব্বা।",
+        "material": "Premium Wash n Wear",
+        "features": ["রাজকীয় লুক", "সব ঋতুর উপযোগী", "পকেট সুবিধা"],
+        "rating": 4.8
+      }
+    },
+    {
+      "id": 16,
+      "name": "কালো পাথর তসবিহ",
+      "price": 300,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/0jJJ8yMh/463087068-500611622945397-6536297165675071357-n-420x420.jpg",
+      "inStock": true,
+      "details": {
+        "description": "আসল কালো পাথরের তৈরি ১০০ দানার গাম্ভীর্যপূর্ণ তসবিহ।",
+        "material": "Natural Stone",
+        "features": ["ভারী দানা", "শীতল অনুভূতি", "প্রিমিয়াম সুতা"],
+        "rating": 4.7
+      }
+    },
+    {
+      "id": 17,
+      "name": "মেসওয়াক (প্যাকেটজাত)",
+      "price": 30,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/0jJJ8yMh/463087068-500611622945397-6536297165675071357-n-420x420.jpg",
+      "inStock": true,
+      "details": {
+        "description": "তাজা এবং স্বাস্থ্যসম্মতভাবে প্যাকেটজাত করা জয়তুন গাছের মেসওয়াক।",
+        "features": ["প্রাকৃতিক", "দাঁতের জন্য উপকারী", "তাজা"],
+        "rating": 4.6
+      }
+    },
+    {
+      "id": 18,
+      "name": "ইসলামিক গিফট বক্স",
+      "price": 2500,
+      "category": "Combo",
+      "image": "https://i.ibb.co.com/1f4vFQh9/360-F-263148731-URq-K7-TVJz0a1ja-V3-Iu-Ad-TBu-Xmoi4lc-A6.jpg",
+      "inStock": true,
+      "details": {
+        "description": "কুরআন, আতর, তসবিহ এবং টুপি সংবলিত চমৎকার একটি গিফট বক্স।",
+        "features": ["চমৎকার প্যাকেজিং", "৪টি আইটেম", "সেরা উপহার"],
+        "rating": 4.9
+      }
+    },
+    {
+      "id": 19,
+      "name": "সাদা ওড়না (কটন)",
+      "price": 250,
+      "category": "Clothing",
+      "image": "https://i.ibb.co.com/8g0CcrK3/pngtree-women-muslim-with-black-dress-png-image-5294699.png",
+      "inStock": true,
+      "details": {
+        "description": "নামাযের জন্য এবং বাইরে পরার উপযোগী ৫ হাতের সুতি ওড়না।",
+        "material": "Soft Cotton",
+        "features": ["বড় সাইজ", "নরম কাপড়", "সহজ ব্যবহার"],
+        "rating": 4.5
+      }
+    },
+    {
+      "id": 20,
+      "name": "আমপারা (নূরানী)",
+      "price": 50,
+      "category": "Religious Book",
+      "image": "https://i.ibb.co.com/1f4vFQh9/360-F-263148731-URq-K7-TVJz0a1ja-V3-Iu-Ad-TBu-Xmoi4lc-A6.jpg",
+      "inStock": true,
+      "details": {
+        "description": "শিশুদের কায়দা ও কুরআন শিক্ষার জন্য নূরানী আমপারা।",
+        "features": ["স্পষ্ট অক্ষর", "সহজ পদ্ধতি", "কালার প্রিন্ট"],
+        "rating": 4.8
+      }
+    },
+    {
+      "id": 21,
+      "name": "মাউস আল ওদ (আতর)",
+      "price": 600,
+      "category": "Fragrance",
+      "image": "https://i.ibb.co.com/rRR1Bstz/ramy-vicky-ator-3-ml-2.png",
+      "inStock": true,
+      "details": {
+        "description": "উন্নত মানের ওদ এবং মাস্কের মিশ্রণে তৈরি রাজকীয় ঘ্রাণ।",
+        "volume": "3ml",
+        "features": ["রয়েল ঘ্রাণ", "দীর্ঘস্থায়ী", "অ্যালকোহল বিহীন"],
+        "rating": 4.7
+      }
+    },
+    {
+      "id": 22,
+      "name": "বাচ্চাদের জায়নামাজ",
+      "price": 450,
+      "category": "Prayer Mat",
+      "image": "https://i.ibb.co.com/0jJJ8yMh/463087068-500611622945397-6536297165675071357-n-420x420.jpg",
+      "inStock": true,
+      "details": {
+        "description": "বাচ্চাদের নামাযে উৎসাহিত করতে কার্টুন ও মসিজদ প্রিন্ট করা জায়নামাজ।",
+        "features": ["আকর্ষণীয় ডিজাইন", "নরম ফেব্রিক", "ছোট সাইজ"],
+        "rating": 4.8
+      }
+    },
+    {
+      "id": 23,
+      "name": "কালেমা ফ্রেম (দেয়াল সজ্জা)",
+      "price": 950,
+      "category": "Home Decor",
+      "image": "https://i.ibb.co.com/1f4vFQh9/360-F-263148731-URq-K7-TVJz0a1ja-V3-Iu-Ad-TBu-Xmoi4lc-A6.jpg",
+      "inStock": true,
+      "details": {
+        "description": "ঘর সাজানোর জন্য কাঠের ওপর ক্যালিগ্রাফি করা কালেমা শাহাদাত ফ্রেম।",
+        "material": "MDF Wood",
+        "features": ["আর্টিস্টিক লুক", "সহজে ঝোলানো যায়", "দীর্ঘস্থায়ী"],
+        "rating": 4.6
+      }
+    },
+    {
+      "id": 24,
+      "name": "বোরকা (দুবাই চেরি ফেব্রিক)",
+      "price": 2200,
+      "category": "Clothing",
+      "image": "https://i.ibb.co.com/8g0CcrK3/pngtree-women-muslim-with-black-dress-png-image-5294699.png",
+      "inStock": true,
+      "details": {
+        "description": "দুবাই চেরি ফেব্রিক দিয়ে তৈরি সফট এবং আরামদায়ক ক্লাসিক কালো বোরকা।",
+        "material": "Dubai Cherry",
+        "features": ["প্রিমিয়াম ফেব্রিক", "নিখুঁত সেলাই", "রিং স্লিভ"],
+        "rating": 4.9
+      }
+    },
+    {
+      "id": 25,
+      "name": "হাদীসের গল্প (বই)",
+      "price": 180,
+      "category": "Islamic Books",
+      "image": "https://i.ibb.co.com/KzXKdMKt/png-row-islamic-books-transparent-background-378502811.webp",
+      "inStock": true,
+      "details": {
+        "description": "শিশুদের জন্য শিক্ষণীয় হাদীসের ছোট ছোট গল্পের সংকলন।",
+        "features": ["রঙিন ছবি", "সহজ ভাষা", "শিক্ষণীয় উপদেশ"],
+        "rating": 4.7
+      }
+    },
+    {
+      "id": 26,
+      "name": "চন্দন আতর",
+      "price": 300,
+      "category": "Fragrance",
+      "image": "https://i.ibb.co.com/rRR1Bstz/ramy-vicky-ator-3-ml-2.png",
+      "inStock": true,
+      "details": {
+        "description": "প্রাকৃতিক চন্দন কাঠের নির্যাস থেকে তৈরি বিশুদ্ধ আতর।",
+        "volume": "6ml",
+        "features": ["বিশুদ্ধ চন্দন", "সতেজ ঘ্রাণ", "দীর্ঘস্থায়ী"],
+        "rating": 4.4
+      }
+    }
+  ]
+}
