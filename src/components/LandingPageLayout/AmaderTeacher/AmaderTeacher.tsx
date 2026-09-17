@@ -96,7 +96,7 @@ export default function TeacherSlider() {
 
   return (
     <section className="relative overflow-hidden px-4 py-8 md:py-12 lg:px-8 max-w-11/12 mx-auto">
-      <div className="relative z-10 bg-secondary shadow-[inset_0_0_20px_rgba(234,177,58,0.2)] max-w-7xl mx-auto px-6 py-8 md:px-10 rounded-2xl">
+      <div className="relative z-10 bg-brand-pale/80 shadow-[inset_0_0_20px_rgba(238,245,239,0.2)] max-w-7xl mx-auto px-6 py-8 md:px-10 rounded-2xl">
         {/* Header */}
         <div className="mx-auto mb-10 max-w-2xl space-y-3 text-center">
           <motion.div

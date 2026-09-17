@@ -1,4 +1,5 @@
 import { GraduationCap } from "lucide-react";
+import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -17,18 +18,18 @@ export default function CTA() {
         </div>
 
         <div className="flex gap-3">
-          <a
-            href="#"
+          <Link
+            href="/auth/register"
             className="rounded-full bg-brand-dark px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-brand"
           >
             Register Now
-          </a>
-          <a
-            href="#courses"
+          </Link>
+          <Link
+            href="/education"
             className="rounded-full border border-brand-dark px-6 py-2.5 text-sm font-semibold text-brand-dark transition hover:bg-brand-dark hover:text-white"
           >
             Our Courses
-          </a>
+          </Link>
         </div>
       </div>
     </section>

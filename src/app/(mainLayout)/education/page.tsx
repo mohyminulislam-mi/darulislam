@@ -9,7 +9,7 @@ import EducationHero from "@/src/components/Education/EducationHero/EducationHer
 import EduCategories from "@/src/components/mainLayout/Educations/EduCategories";
 import { getAllCourses } from "@/src/lib/data";
 import LoadingSpinner from "@/src/components/shared/spinner/LoadingSpinner";
-import { ChevronDown } from "lucide-react";
+import { BookOpen, ChevronDown } from "lucide-react";
 
 const EducationPage = () => {
   const [data, setData] = useState<any>(null);
@@ -82,13 +82,25 @@ const EducationPage = () => {
 
   return (
     <div className="min-h-screen bg-slate-50/50 antialiased">
+      <div className="max-w-7xl mx-auto text-center pt-22 relative">
+        <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-emerald-50 border border-emerald-100 text-[#0f5132] font-semibold text-sm sm:text-base shadow-sm mb-4">
+          <BookOpen /> আমাদের একাডেমিক শিক্ষা ব্যবস্থা
+        </div>
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          দ্বীনী শিক্ষার একটি সুবিন্যস্ত এবং আধুনিক রূপরেখা
+        </h2>
+        <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-2xl mx-auto">
+          বিভাগ অনুযায়ী আমাদের সকল কোর্সসমূহ এমনভাবে সাজানো হয়েছে যা একজন
+          শিক্ষার্থীকে আদর্শ ও নৈতিক শিক্ষায় উন্নত করবে।
+        </p>
+      </div>
       <EducationHero searchTerm={searchTerm} onSearchChange={setSearchTerm} />
 
       {/* 🎯 Conditionally unmount category filter panel during active client-side searches */}
       {!isSearching && <EduCategories />}
 
       {/* মেইন ক্যাটাগরি কোর্স সেকশন সমূহ */}
-      <div className="max-w-6xl mx-auto px-4 pt-10 pb-12 lg:pt-16 space-y-16">
+      <div className="max-w-7xl mx-auto px-4 pt-10 pb-12 lg:pt-16 space-y-16">
         {filteredEducationData2.map((section, idx) => {
           const allSectionCourses = section.courses || [];
           const hasMoreThanEight = allSectionCourses.length > 8;

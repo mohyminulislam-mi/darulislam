@@ -102,8 +102,7 @@ export default function GallerySection() {
   };
 
   return (
-    <section className="px-4 my-8 max-w-11/12 mx-auto">
-      <div className="max-w-11/12 mx-auto px-5 py-6 rounded-2xl">
+    <section className="px-4 py-6 max-w-7xl mx-auto">
         <div className="flex flex-col items-center mb-12 text-center">
           <div className="flex items-center gap-2 px-4 py-1.5 bg-emerald-50 text-brand rounded-full text-xs font-bold mb-4">
             <ImageIcon className="w-4 h-4" />
@@ -183,7 +182,6 @@ export default function GallerySection() {
             </div>
           </div>
         )}
-      </div>
     </section>
   );
 }

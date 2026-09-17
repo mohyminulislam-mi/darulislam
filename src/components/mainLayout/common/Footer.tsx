@@ -61,16 +61,16 @@ export default function Footer() {
                 />
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-primary-text font-bold text-lg lg:text-xl">
+                <span className="text-white/70 font-bold text-lg lg:text-xl">
                   দারুল ইসলাম ইনস্টিটিউট
                 </span>
-                <span className="text-primary-text text-[10px] hidden lg:block uppercase tracking-wider">
+                <span className="text-white/70 text-[10px] hidden lg:block uppercase tracking-wider">
                   Darul Islam Institute
                 </span>
               </div>
             </Link>
 
-            <p className="text-sm font-medium leading-relaxed text-primary-text max-w-xs">
+            <p className="text-sm font-medium leading-relaxed text-white/70 max-w-xs">
               একটি আধুনিক ও উন্নত ইসলামি শিক্ষাপ্রতিষ্ঠান যা কুরআন ও সুন্নাহর
               ভিত্তিতে জীবন গড়ার নিরলস প্রচেষ্টা চালিয়ে যাচ্ছে।
             </p>
@@ -112,11 +112,11 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="flex items-center gap-3 text-sm font-bold text-primary-hover hover:text-primary-hover transition-all group"
+                    className="flex items-center gap-3 text-sm font-bold text-white/70 hover:text-primary-hover transition-all group"
                   >
                     <ArrowRight
                       size={14}
-                      className="group-hover:translate-x-1 transition-transform"
+                      className="group-hover:translate-x-1 transition-transform text-primary-text"
                     />
                     {link.name}
                   </Link>
@@ -140,11 +140,11 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="flex items-center gap-3 text-sm font-bold text-primary-hover hover:text-primary-text transition-all group"
+                    className="flex items-center gap-3 text-sm font-bold text-white/70 hover:text-primary-text transition-all group"
                   >
                     <ArrowRight
                       size={14}
-                      className="group-hover:translate-x-1 transition-transform"
+                      className="group-hover:translate-x-1 transition-transform text-primary-text"
                     />
                     {link.name}
                   </Link>
@@ -160,28 +160,28 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-6 text-green-primary-text">
-              <li className="flex gap-4 items-center">
+              <li className="flex gap-3 items-center">
                 <Phone className="text-primary-text" size={18} />
                 <Link
                   href="tel:+8801792297764"
-                  className="text-primary-text transition"
+                  className="text-white/70 transition"
                 >
                   +880 1792297764
                 </Link>
               </li>
 
-              <li className="flex gap-4 items-center">
+              <li className="flex gap-3 items-center">
                 <Mail className="text-primary-text" size={18} />
                 <Link
                   href="mailto:darulislaminstituteofficial@gmail.com"
-                  className="text-primary-text transition break-all"
+                  className="text-white/70 transition break-all"
                 >
                   darulislaminstituteofficial@gmail.com
                 </Link>
               </li>
-              <li className="flex gap-4">
+              <li className="flex gap-3">
                 <MapPin className="text-primary-text" size={18} />
-                <span className="text-primary-text">
+                <span className="text-white/70">
                   মোহাম্মদপুর, ঢাকা 1207, বাংলাদেশ
                 </span>
               </li>
@@ -195,12 +195,12 @@ export default function Footer() {
 
           <div className="flex bg-white/5 rounded-xl overflow-hidden">
             <Link
-              href="https://universesofttech.co/"
+              href="https://www.mohyminulislam.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 text-xs text-white hover:text-primary-text"
             >
-              Develop by universesofttech.co
+              Develop by Mohyminul Islam
             </Link>
           </div>
         </div>

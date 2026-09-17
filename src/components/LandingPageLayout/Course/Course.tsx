@@ -98,7 +98,7 @@ export default function HomeFeaturedCourses() {
       aria-label="ফিচার্ড কোর্সসমূহ"
     >
       {/* 🟢 এখানে parent container থেকে 'group' সরিয়ে দেওয়া হয়েছে */}
-      <div className="bg-secondary shadow-[inset_0_0_20px_rgba(234,177,58,0.2)] max-w-7xl mx-auto px-5 py-6 rounded-2xl relative">
+      <div className="bg-brand-pale/80 shadow-[inset_0_0_20px_rgba(238,245,239,0.2)] max-w-7xl mx-auto px-5 py-6 rounded-2xl relative">
         <div className="mx-auto mb-12 max-w-lg space-y-3 text-center">
           <h2 className="text-2xl font-extrabold text-green-800 lg:text-4xl">
             আমাদের বিশেষ কোর্সসমূহ

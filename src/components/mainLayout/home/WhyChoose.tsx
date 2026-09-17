@@ -75,7 +75,7 @@ const Features = {
 const WhyChoose = () => {
   return (
     <section className="px-5 max-w-11/12 mx-auto">
-      <div className="bg-secondary shadow-[inset_0_0_20px_rgba(234,177,58,0.2)] max-w-7xl mx-auto px-5 py-6 rounded-2xl">
+      <div className="bg-brand-pale/80 shadow-[inset_0_0_20px_rgba(238,245,239,0.2)] max-w-7xl mx-auto px-5 py-6 rounded-2xl">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-2">
             কেন আমাদের বেছে নিবেন?

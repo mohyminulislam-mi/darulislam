@@ -4,6 +4,7 @@ import {
   GraduationCap,
   Sparkles,
 } from "lucide-react";
+import Link from "next/link";
 
 const features = [
   {
@@ -31,7 +32,7 @@ const features = [
 export default function Hero() {
   return (
     <section
-      className="relative overflow-hidden bg-cover bg-center bg-no-repeat pt-6"
+      className="relative overflow-hidden bg-cover bg-center bg-no-repeat md:pt-20 pt-10"
       style={{
         backgroundImage: "url('/madina.png')",
       }}
@@ -53,20 +54,20 @@ export default function Hero() {
             সহজ পদ্ধতিতে তাজবীদসহ কুরআন শিক্ষা ও হিফজ প্রোগ্রাম
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-4">
-            <a
+          <div className="mt-6 flex md:flex-wrap gap-2">
+            <Link
               href="#"
-              className="rounded-full bg-gold px-7 py-3 text-sm font-semibold text-brand-dark transition hover:bg-gold-dark"
+              className="rounded-full bg-gold px-5 md:px-7 py-3 text-sm font-semibold text-brand-dark transition hover:bg-gold-dark"
             >
               ভর্তি হতে ক্লিক করুন &gt;
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="#courses"
-              className="rounded-full border border-white/40 px-7 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+              className="rounded-full border border-white/40 px-5 md:px-7 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
             >
               কোর্সসমূহ দেখুন
-            </a>
+            </Link>
           </div>
         </div>
       </div>

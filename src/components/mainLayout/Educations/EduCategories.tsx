@@ -122,19 +122,6 @@ export default function EduCategories() {
 
   return (
     <div className="bg-gradient-to-b from-[#f4fbf7] to-[#fcfdfd] py-12 px-4 sm:px-6 lg:px-8 selection:bg-emerald-100 selection:text-emerald-950">
-      <div className="max-w-7xl mx-auto text-center mb-16 relative">
-        <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-emerald-50 border border-emerald-100 text-[#0f5132] font-semibold text-sm sm:text-base shadow-sm mb-4">
-          <BookOpen /> আমাদের একাডেমিক শিক্ষা ব্যবস্থা
-        </div>
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          দ্বীনী শিক্ষার একটি সুবিন্যস্ত এবং আধুনিক রূপরেখা
-        </h2>
-        <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-2xl mx-auto">
-          বিভাগ অনুযায়ী আমাদের সকল কোর্সসমূহ এমনভাবে সাজানো হয়েছে যা একজন
-          শিক্ষার্থীকে আদর্শ ও নৈতিক শিক্ষায় উন্নত করবে।
-        </p>
-      </div>
-
       {/* 🎯 ২️⃣ রেন্ডারিং কন্ডিশন লক: ডাটা লোড হওয়ার সময় আমাদের প্রিমিয়াম স্কেলিটন শো করবে */}
       {loading ? (
         <CategorySkeleton />
