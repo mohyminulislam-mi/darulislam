@@ -250,7 +250,7 @@ export default function Page({ params }: Props) {
   };
 
   return (
-    <section className="bg-[#f7faf7] min-h-screen mt-10 pb-20">
+    <section className="bg-[#f7faf7] min-h-screen mt-10 pb-20 max-w-11/12 mx-auto">
       <div className="max-w-6xl mx-auto px-5 py-12">
         <div className="bg-white rounded-3xl p-6 md:p-10 shadow-sm border border-gray-100">
           {/* Header */}

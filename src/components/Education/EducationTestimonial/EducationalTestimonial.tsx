@@ -74,7 +74,7 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 antialiased text-slate-800">
+    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 antialiased text-slate-800 max-w-11/12 mx-auto">
       <div className="max-w-6xl mx-auto">
         {/* সেকশন হেডার */}
         <div className="text-center mb-12">

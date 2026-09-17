@@ -23,7 +23,7 @@ const DonationSection = () => {
   ];
 
   return (
-    <section className="py-12 px-2 bg-white">
+    <section className="py-12 px-2 bg-white max-w-11/12 mx-auto">
       <div className="max-w-6xl mx-auto text-center">
         {/* Header Section */}
         <div className="mb-8">

@@ -141,7 +141,7 @@ const EducationPage = () => {
           if (filteredFreeCourses.length === 0) return null;
 
           return (
-            <section className="max-w-6xl mx-auto px-4 py-12">
+            <section className="max-w-6xl mx-auto px-4 py-12 max-w-11/12 mx-auto">
               <motion.div
                 {...fadeInVariant}
                 className="relative border border-neutral-200/50 bg-white rounded-[2rem] p-5 md:p-8 shadow-2xs"

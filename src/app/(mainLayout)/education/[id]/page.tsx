@@ -388,7 +388,7 @@ export default function CourseDetailPage() {
               </motion.div>
 
               <section
-                className="bg-white p-6 sm:p-8 rounded-[2rem] border border-neutral-100 shadow-sm space-y-4"
+                className="bg-white p-6 sm:p-8 rounded-[2rem] border border-neutral-100 shadow-sm space-y-4 max-w-11/12 mx-auto"
                 aria-labelledby="desc-heading"
               >
                 <h3
@@ -421,7 +421,7 @@ export default function CourseDetailPage() {
               </section>
 
               <section
-                className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-11/12 mx-auto"
                 aria-label="কোর্স ফিচারসমূহ"
               >
                 <div className="p-5 bg-white rounded-2xl border border-neutral-100 flex items-center gap-4">
@@ -531,7 +531,7 @@ export default function CourseDetailPage() {
               </motion.div>
 
               <section
-                className="bg-white rounded-[2rem] border border-neutral-100 shadow-xl overflow-hidden flex flex-col justify-between"
+                className="bg-white rounded-[2rem] border border-neutral-100 shadow-xl overflow-hidden flex flex-col justify-between max-w-11/12 mx-auto"
                 aria-label="কোর্স কারিকুলাম সিলেবাস"
               >
                 <div className="p-5 bg-slate-50/80 border-b border-neutral-100 flex justify-between items-center">

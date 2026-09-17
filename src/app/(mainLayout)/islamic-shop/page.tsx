@@ -9,7 +9,7 @@ const page = () => {
     <div className="bg-white">
       <ShopHeroSlider />
       <ProductSearchBar />
-      <section id="all-products">
+      <section className="max-w-11/12 mx-auto" id="all-products">
         <CategorySection />
       </section>
       <BestSellingProducts />

@@ -112,7 +112,7 @@ export default function HeroSection() {
   // 🎯 শিমার স্কেলিটন লোডার ভাই (শুধুমাত্র তখনই দেখাবে যখন একদম প্রথমবার লোড হচ্ছে এবং ক্যাশেও কোনো ডাটা নেই)
   if (!isMounted || (isLoading && slides.length === 0)) {
     return (
-      <section className="relative h-[220px] md:h-[300px] lg:h-[500px] mt-16 lg:mt-18 overflow-hidden bg-slate-900 animate-pulse">
+      <section className="relative h-[220px] md:h-[300px] lg:h-[500px] mt-16 lg:mt-18 overflow-hidden bg-slate-900 animate-pulse max-w-11/12 mx-auto">
         <div className="absolute inset-0 bg-gradient-to-r from-[#0B3D2E]/90 via-[#0b3d2e]/40 to-transparent z-10" />
         <div className="absolute inset-0 z-20 flex items-center">
           <div className="max-w-screen-xl mx-auto w-full px-3 lg:px-8 space-y-4">
@@ -154,7 +154,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative h-[220px] md:h-[300px] lg:h-[500px] mt-16 lg:mt-17 overflow-hidden bg-slate-950">
+    <section className="relative h-[220px] md:h-[300px] lg:h-[500px] mt-16 lg:mt-17 overflow-hidden bg-slate-950 max-w-11/12 mx-auto">
       {/* Slides */}
       {slides.map((slide, index) => {
         const primaryBtn = getPrimaryButtonConfig(slide);

@@ -35,7 +35,7 @@ export default function TeamGallery({ data }: TeamGalleryProps) {
   };
 
   return (
-    <section className="w-full bg-[#0B1315] text-white py-16 px-4 md:px-12 lg:px-24 font-sans text-center">
+    <section className="w-full bg-[#0B1315] text-white py-16 px-4 md:px-12 lg:px-24 font-sans text-center max-w-11/12 mx-auto">
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="space-y-4">
           <h2 className="text-2xl md:text-4xl font-bold tracking-wide">

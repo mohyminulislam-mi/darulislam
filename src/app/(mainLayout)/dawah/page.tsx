@@ -63,7 +63,7 @@ const resources = [
 
 export default function DawahPage() {
   return (
-    <section className="flex flex-col min-h-screen bg-[#F7FBF7]">
+    <section className="flex flex-col min-h-screen bg-[#F7FBF7] max-w-11/12 mx-auto">
       {/* Hero Section */}
       <div className="relative h-44 lg:h-56 bg-gradient-to-r from-emerald-800 to-teal-900 flex items-end p-6 lg:p-12 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] bg-repeat" />

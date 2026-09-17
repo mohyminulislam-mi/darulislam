@@ -31,7 +31,7 @@ const AdmissionInfo: React.FC = () => {
   ];
 
   return (
-    <section className="my-8 px-5 relative overflow-hidden">
+    <section className="my-8 px-5 relative overflow-hidden max-w-11/12 mx-auto">
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-32 h-32 bg-emerald-50 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
 

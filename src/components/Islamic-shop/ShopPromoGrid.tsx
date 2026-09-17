@@ -27,7 +27,7 @@ const ShopPromoGrid = () => {
   ];
 
   return (
-    <section className="px-4 py-4 md:py-6 max-w-7xl mx-auto space-y-6">
+    <section className="px-4 py-4 md:py-6 max-w-7xl mx-auto space-y-6 max-w-11/12 mx-auto">
       {/* 📜 ১. ইসলামিক মোটিভেশনাল কোট বার (ব্র্যান্ড ভ্যালু তৈরি করবে) */}
       <div className="relative bg-gradient-to-r from-[#0B5D3B] to-[#0c462a] text-white p-5 md:p-6 rounded-[2rem] shadow-md overflow-hidden flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
         {/* ব্যাকগ্রাউন্ড ওয়াটারমার্ক ডিজাইন */}

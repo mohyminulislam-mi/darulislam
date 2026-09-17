@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
             const IconComponent = iconMap[section.iconName] || Eye;
 
             return (
-              <section key={section.id} className="group p-4 rounded-xl border border-transparent hover:border-gray-100 hover:bg-gray-50/50 transition-all duration-200">
+              <section key={section.id} className="group p-4 rounded-xl border border-transparent hover:border-gray-100 hover:bg-gray-50/50 transition-all duration-200 max-w-11/12 mx-auto">
                 <div className="flex items-start gap-4">
                   {/* Icon Wrapper */}
                   <div className="p-2.5 bg-emerald-50 text-emerald-700 rounded-lg group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-200 shrink-0">

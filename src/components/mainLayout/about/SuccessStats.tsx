@@ -113,7 +113,7 @@ export default function SuccessStats({ data }: SuccessStatsProps) {
     data?.stats && data.stats.length > 0 ? data.stats : defaultStats;
 
   return (
-    <section className="w-full bg-[#0B1315] text-white py-16 px-6 md:px-12 lg:px-24 font-sans relative overflow-hidden">
+    <section className="w-full bg-[#0B1315] text-white py-16 px-6 md:px-12 lg:px-24 font-sans relative overflow-hidden max-w-11/12 mx-auto">
       <div className="absolute bottom-0 left-10 opacity-10 pointer-events-none w-64 h-64">
         <svg
           viewBox="0 0 100 100"

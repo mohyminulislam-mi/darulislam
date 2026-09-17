@@ -69,7 +69,7 @@ export default function RefundPolicy() {
             return (
               <section
                 key={section.id}
-                className="group p-4 rounded-xl border border-transparent hover:border-gray-100 hover:bg-gray-50/50 transition-all duration-200"
+                className="group p-4 rounded-xl border border-transparent hover:border-gray-100 hover:bg-gray-50/50 transition-all duration-200 max-w-11/12 mx-auto"
               >
                 <div className="flex items-start gap-4">
                   {/* Icon Wrapper */}

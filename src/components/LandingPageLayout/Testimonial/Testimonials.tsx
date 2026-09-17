@@ -100,18 +100,18 @@ const Testimonials = () => {
   if (!loading && testimonials.length === 0) return null;
 
   return (
-    <section className="px-4 py-20  overflow-hidden relative">
+    <section className="px-4 py-20  overflow-hidden relative max-w-11/12 mx-auto">
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[400px] h-[400px] bg-green-50 rounded-full blur-3xl pointer-events-none -z-10" />
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
           <div className="text-center sm:text-left">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-green-50 border border-green-100 rounded-full text-[11px] font-black text-green-800 mb-3">
-              <MessageSquare className="w-3.5 h-3.5 text-[#0B5D3B]" /> অভিজ্ঞতা
+              <MessageSquare className="w-3.5 h-3.5 text-brand" /> অভিজ্ঞতা
               ও অনুভূতি
             </div>
             <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">
               অভিভাবক ও শিক্ষার্থীদের{" "}
-              <span className="text-[#0B5D3B]">মতামত</span>
+              <span className="text-brand">মতামত</span>
             </h2>
           </div>
 
@@ -220,7 +220,7 @@ const Testimonials = () => {
         <div className="text-center mt-6">
           <Link
             href="/testimonials"
-            className="inline-flex items-center gap-2 px-7 py-3.5 bg-white border-2 border-green-800 hover:border-[#0B5D3B] text-[#0B5D3B] rounded-2xl text-sm font-black tracking-tight shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_25px_rgba(11,93,59,0.06)] hover:bg-[#0B5D3B] hover:text-white transition-all duration-300 transform active:scale-98 group cursor-pointer"
+            className="inline-flex items-center gap-2 px-7 py-3.5 bg-white border-2 border-green-800 hover:border-brand text-brand rounded-2xl text-sm font-black tracking-tight shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_25px_rgba(14,61,47,0.1)] hover:bg-brand hover:text-white transition-all duration-300 transform active:scale-98 group cursor-pointer"
           >
             সকল মতামত দেখুন
             <MessageSquare

@@ -26,7 +26,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section className="py-10 px-4 bg-gray-50">
+    <section className="py-10 px-4 bg-gray-50 max-w-11/12 mx-auto">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white p-5 md:p-10 rounded-[2rem] shadow-sm border border-gray-100">
           {/* Section Title - Compact for mobile */}

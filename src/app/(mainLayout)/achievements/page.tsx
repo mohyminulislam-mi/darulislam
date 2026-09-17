@@ -104,7 +104,7 @@ const AWARDS = [
 
 export default function AchievementsClient() {
   return (
-    <section className="min-h-screen bg-[#F7FBF7] py-8 md:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="min-h-screen bg-[#F7FBF7] py-8 md:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden max-w-11/12 mx-auto">
       {/* ব্যানার সেকশন */}
       <div className="max-w-4xl mx-auto text-center mb-10 md:mb-16 space-y-3 md:space-y-4">
         <span className="bg-[#8FE3A9]/20 text-[#0B3D2E] text-xs font-black uppercase tracking-widest px-3.5 py-1.5 rounded-full inline-flex items-center gap-1.5 justify-center">

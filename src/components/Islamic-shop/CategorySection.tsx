@@ -98,7 +98,7 @@ const CategorySection = () => {
   };
 
   return (
-    <section className="px-4 py-8 max-w-7xl mx-auto bg-white">
+    <section className="px-4 py-8 max-w-7xl mx-auto bg-white max-w-11/12 mx-auto">
       <div className="mb-6 mt-10">
         <h2 className="text-lg md:text-xl font-black text-[#0B5D3B]">
           ক্যাটেগরি সমূহ

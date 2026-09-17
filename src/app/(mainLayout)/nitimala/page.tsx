@@ -184,7 +184,7 @@ const StudentRulesPage = () => {
                   return (
                     <section
                       key={idx}
-                      className="bg-white border border-neutral-100 rounded-2xl overflow-hidden shadow-sm hover:border-neutral-200/80 transition-all"
+                      className="bg-white border border-neutral-100 rounded-2xl overflow-hidden shadow-sm hover:border-neutral-200/80 transition-all max-w-11/12 mx-auto"
                     >
                       {/* প্রশ্ন/হেডার বাটন */}
                       <button

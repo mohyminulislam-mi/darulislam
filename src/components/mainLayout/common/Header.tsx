@@ -18,10 +18,6 @@ import {
   Users,
   Settings,
   Info,
-  History,
-  Target,
-  UserCheck,
-  Video,
   Image as ImageIcon,
   LogIn,
   UserPlus,
@@ -159,7 +155,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#123529] shadow-md border-b border-white/10">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-brand shadow-md border-b border-white/10">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3 lg:px-8">
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -184,7 +180,7 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <Link
             href="/notice"
-            className="text-white hover:text-[#C8A44D] transition"
+            className="text-white hover:text-gold transition"
           >
             <BellRing size={24} />
           </Link>
@@ -213,9 +209,9 @@ const Header = () => {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "tween", duration: 0.3 }}
-              className="fixed top-0 right-0 h-full w-[85%] max-w-[320px] bg-[#F5EFE1] z-[80] shadow-2xl flex flex-col text-left"
+              className="fixed top-0 right-0 h-full w-[85%] max-w-[320px] bg-secondary z-[80] shadow-2xl flex flex-col text-left"
             >
-              <div className="bg-[#0B3D2E] p-5 flex justify-between items-center shrink-0">
+              <div className="bg-brand p-5 flex justify-between items-center shrink-0">
                 <span className="text-white font-bold text-lg">মেনু</span>
                 <button
                   onClick={() => setIsOpen(false)}

@@ -4,32 +4,67 @@
 @import "swiper/css/pagination";
 
 @theme {
-  --color-primary: #123529;
-  --color-primary-light: #146c4b;
-  --color-primary-soft: #e9f7ef;
-  --color-primary-hover: #c69431;
-  --color-primary-text: #c69431;
-  --color-secondary: #f5efe1;
-  --color-accent: #c8a44d;
-  --color-border-dark: #0f5138;
-  --color-background-is: #faf6ec;
-  --color-islamic-green: #0b5d3b;
-  --color-islamic-green-light: #1f8a5b;
-  --color-islamic-gold: #c8a44d;
+  --color-primary: #0e3d2f;
+  --color-primary-light: #0e3d2ff2;
+  --color-primary-soft: #edf5ef;
+  --color-primary-hover: #c98f1f;
+  --color-primary-text: #eab13a;
+  --color-secondary: #fbf6e9;
+  --color-accent: #eab13a;
+  --color-border-dark: #0e3d2f;
+  --color-background-is: #fbf8ee;
+  --color-islamic-green: #0e3d2f;
+  --color-islamic-green-light: #0e3d2ff2;
+  --color-islamic-gold: #eab13a;
+
+  /* Shared public-site palette */
+  --color-brand: #0e3d2f;
+  --color-brand-dark: #082b20;
+  --color-brand-light: #0e3d2ff2;
+  --color-brand-pale: #edf5ef;
+  --color-gold: #eab13a;
+  --color-gold-dark: #c98f1f;
+
+  /* Keep legacy Tailwind green/emerald utilities visually on-brand. */
+  --color-green-50: #f1f7f1;
+  --color-green-100: #dcecdf;
+  --color-green-200: #bfd9c5;
+  --color-green-300: #91bb9b;
+  --color-green-400: #5e9670;
+  --color-green-500: #2f7155;
+  --color-green-600: #0e3d2ff2;
+  --color-green-700: #0e3d2f;
+  --color-green-800: #0a3327;
+  --color-green-900: #082b20;
+  --color-emerald-50: #f1f7f1;
+  --color-emerald-100: #dcecdf;
+  --color-emerald-200: #bfd9c5;
+  --color-emerald-400: #5e9670;
+  --color-emerald-500: #2f7155;
+  --color-emerald-600: #0e3d2ff2;
+  --color-emerald-700: #0e3d2f;
+  --color-emerald-950: #082b20;
+
+  /* Soft green shadows keep cards cohesive without competing with the gold accent. */
+  --shadow-sm: 0 1px 2px rgb(14 61 47 / 0.06), 0 1px 3px rgb(14 61 47 / 0.04);
+  --shadow-md: 0 5px 12px rgb(14 61 47 / 0.1), 0 2px 5px rgb(14 61 47 / 0.05);
+  --shadow-lg: 0 12px 24px rgb(14 61 47 / 0.12), 0 5px 10px rgb(14 61 47 / 0.06);
+  --shadow-xl: 0 20px 38px rgb(14 61 47 / 0.14), 0 8px 16px rgb(14 61 47 / 0.07);
+  --shadow-2xl: 0 28px 56px rgb(14 61 47 / 0.16);
 }
 
 :root {
-  --background: #faf6ec;
+  --background: #ffffff;
   --foreground: #10231b;
-  --primary: #123529;
-  --primary-hover: #c69431;
-  --primary-text: #c69431;
-  --primary-light: #146c4b;
-  --primary-soft: #e9f7ef;
-  --accent: #c8a44d;
+  --primary: #0e3d2f;
+  --primary-hover: #c98f1f;
+  --primary-text: #eab13a;
+  --primary-light: #0e3d2ff2;
+  --primary-soft: #edf5ef;
+  --accent: #eab13a;
   --surface: #ffffff;
-  --surface-muted: #f3f8f4;
-  --border-soft: #dbe8df;
+  --surface-muted: #f1f7f1;
+  --border-soft: #dcecdf;
 }
 
 body {
@@ -48,8 +83,8 @@ h6 {
 }
 
 ::selection {
-  background: #bfe8ce;
-  color: #123529;
+  background: #eab13a;
+  color: #0e3d2f;
 }
 
 @layer base {
@@ -69,17 +104,22 @@ h6 {
   }
 
   .shadow-islamic {
-    box-shadow: 0 4px 0 #123529;
+    box-shadow: 0 4px 0 #0e3d2f;
   }
 
   .shadow-islamic-lg {
-    box-shadow: 0 8px 0 #123529;
+    box-shadow: 0 8px 0 #0e3d2f;
   }
 
   .hover-shadow-islamic:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 0 #123529;
+    box-shadow: 0 8px 0 #0e3d2f;
   }
+}
+
+@utility container-content {
+  width: min(100% - 2.5rem, 72rem);
+  margin-inline: auto;
 }
 
 .bg-islamic-pattern {

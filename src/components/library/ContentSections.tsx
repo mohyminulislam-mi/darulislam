@@ -185,7 +185,7 @@ export default function ContentSections({
   };
 
   return (
-    <section className="min-h-screen bg-[#FAF7F1]">
+    <section className="min-h-screen bg-[#FAF7F1] max-w-11/12 mx-auto">
       <div className="mx-auto max-w-7xl space-y-16 px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
         {/* ── ইলম ── */}
         <div aria-labelledby="ilm-heading">

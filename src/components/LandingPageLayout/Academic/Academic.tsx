@@ -70,8 +70,8 @@ const Academic = () => {
   if (isError) return null;
 
   return (
-    <section className="px-5">
-      <div className="bg-[#faf6ec] shadow-[inset_0_0_20px_rgba(245,158,11,0.4)] max-w-7xl mx-auto px-5 py-6 rounded-2xl relative group">
+    <section className="px-5 max-w-11/12 mx-auto">
+      <div className="bg-secondary shadow-[inset_0_0_20px_rgba(234,177,58,0.2)] max-w-7xl mx-auto px-5 py-6 rounded-2xl relative group">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-green-800 inline-block relative">
             একাডেমিক বিভাগ
@@ -113,7 +113,7 @@ const Academic = () => {
                 <SwiperSlide key={cat._id} className="h-auto !py-4">
                   <Link
                     href={buildCategoryUrl(cat)}
-                    className="flex flex-col items-center text-center gap-4 p-5 bg-white rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_30px_rgba(22,163,74,0.12)] hover:scale-105 transition-transform duration-300 ease-out [transform-style:preserve-3d] [backface-visibility:hidden] [perspective:1000px] h-full group/item cursor-pointer"
+                    className="flex flex-col items-center text-center gap-4 p-5 bg-white rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(14,61,47,0.06)] hover:shadow-[0_8px_30px_rgba(14,61,47,0.14)] hover:scale-105 transition-transform duration-300 ease-out [transform-style:preserve-3d] [backface-visibility:hidden] [perspective:1000px] h-full group/item cursor-pointer"
                     prefetch={false}
                   >
                     <div className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-xl bg-green-50 text-green-700 transition-colors duration-500 group-hover/item:bg-green-600 group-hover/item:text-white overflow-hidden relative shadow-inner">

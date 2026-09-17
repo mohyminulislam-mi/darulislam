@@ -47,7 +47,7 @@ export default function DonationPage() {
   }, []);
 
   return (
-    <section className="flex flex-col min-h-screen mt-16 lg:mt-18">
+    <section className="flex flex-col min-h-screen mt-16 lg:mt-18 max-w-11/12 mx-auto">
       {/* Hero Section */}
       <div className="relative h-48 lg:h-64 bg-green-800 flex items-end p-6 lg:p-12 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] bg-repeat" />

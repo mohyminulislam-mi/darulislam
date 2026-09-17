@@ -63,7 +63,7 @@ export default function JobCircularsClient() {
   });
 
   return (
-    <section className="min-h-screen bg-[#F7FBF7] pb-12 pt-20 px-4 md:px-8">
+    <section className="min-h-screen bg-[#F7FBF7] pb-12 pt-20 px-4 md:px-8 max-w-11/12 mx-auto">
       {/* ব্যানার */}
       <div className="max-w-5xl mx-auto text-center mb-12 space-y-4">
         <span className="bg-[#8FE3A9]/20 text-[#0B3D2E] text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full inline-block">

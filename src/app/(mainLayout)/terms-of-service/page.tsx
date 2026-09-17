@@ -125,7 +125,7 @@ export default function TermsOfService() {
             const IconComponent = iconMap[section.iconName] || ShieldAlert;
 
             return (
-              <section key={section.id} className="space-y-4">
+              <section key={section.id} className="space-y-4 max-w-11/12 mx-auto">
                 <div className="flex items-center gap-3 border-b border-gray-100 pb-3">
                   <IconComponent className="text-emerald-600 w-6 h-6 shrink-0" />
                   <h2 className="text-xl md:text-2xl font-bold text-gray-900">

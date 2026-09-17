@@ -46,7 +46,7 @@ interface JobDetails {
 
 function JobDetailsSkeleton() {
   return (
-    <section className="min-h-screen bg-[#F7FBF7] py-10 px-4 md:px-8 animate-pulse">
+    <section className="min-h-screen bg-[#F7FBF7] py-10 px-4 md:px-8 animate-pulse max-w-11/12 mx-auto">
       <div className="max-w-5xl mx-auto space-y-8">
         <div className="h-5 w-40 bg-gray-200 rounded-lg"></div>
 
@@ -217,7 +217,7 @@ export default function JobDetailsAndApplyClient() {
 
   if (isError || !job) {
     return (
-      <section className="min-h-screen bg-[#F7FBF7] flex flex-col items-center justify-center p-4 space-y-4">
+      <section className="min-h-screen bg-[#F7FBF7] flex flex-col items-center justify-center p-4 space-y-4 max-w-11/12 mx-auto">
         <h2 className="text-2xl font-black text-red-600">
           জব সার্কুলারটি পাওয়া যায়নি!
         </h2>
@@ -233,7 +233,7 @@ export default function JobDetailsAndApplyClient() {
 
   if (isSubmitted) {
     return (
-      <section className="min-h-screen bg-[#F7FBF7] flex items-center justify-center p-4">
+      <section className="min-h-screen bg-[#F7FBF7] flex items-center justify-center p-4 max-w-11/12 mx-auto">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -262,7 +262,7 @@ export default function JobDetailsAndApplyClient() {
   }
 
   return (
-    <section className="min-h-screen bg-[#F7FBF7] py-10 px-4 md:px-8">
+    <section className="min-h-screen bg-[#F7FBF7] py-10 px-4 md:px-8 max-w-11/12 mx-auto">
       <div className="max-w-5xl mx-auto space-y-8">
         {/* ব্যাক বাটন */}
         <Link

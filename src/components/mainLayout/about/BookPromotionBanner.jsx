@@ -6,7 +6,7 @@ import bookshopMain from '@/public/images/about_bookshop.jpg';
 
 export default function BookPromotionBanner() {
   return (
-    <section className="w-full bg-[#FAF9F5] py-12 px-4 md:px-12 lg:px-24 flex items-center justify-center font-sans">
+    <section className="w-full bg-[#FAF9F5] py-12 px-4 md:px-12 lg:px-24 flex items-center justify-center font-sans max-w-11/12 mx-auto">
 
       {/* Main Banner Container with custom gradient and thin golden border */}
       <div className="max-w-6xl w-full bg-gradient-to-r from-[#014E56] via-[#165E55] to-[#919525] rounded-[24px] border border-amber-400/50 shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-12 items-center relative min-h-[340px] md:min-h-[380px]">

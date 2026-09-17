@@ -102,17 +102,17 @@ export default function GallerySection() {
   };
 
   return (
-    <section className="px-4 my-8">
-      <div className="bg-[#faf6ec] shadow-[inset_0_0_20px_rgba(245,158,11,0.4)] max-w-7xl mx-auto px-5 py-6 rounded-2xl">
+    <section className="px-4 my-8 max-w-11/12 mx-auto">
+      <div className="max-w-11/12 mx-auto px-5 py-6 rounded-2xl">
         <div className="flex flex-col items-center mb-12 text-center">
-          <div className="flex items-center gap-2 px-4 py-1.5 bg-emerald-50 text-[#0B5D3B] rounded-full text-xs font-bold mb-4">
+          <div className="flex items-center gap-2 px-4 py-1.5 bg-emerald-50 text-brand rounded-full text-xs font-bold mb-4">
             <ImageIcon className="w-4 h-4" />
             <span>আমাদের ক্যাম্পাস লাইফ</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-black text-green-800 mb-4">
             ফটো গ্যালারি
           </h2>
-          <div className="w-20 h-1.5 bg-[#0B5D3B] rounded-full"></div>
+          <div className="w-20 h-1.5 bg-brand rounded-full"></div>
         </div>
 
         {isLoading ? (
@@ -151,7 +151,7 @@ export default function GallerySection() {
             <div className="mt-14 mb-6 text-center">
               <Link
                 href="/gallery"
-                className="px-12 py-5 bg-[#0B5D3B] text-white font-black rounded-full hover:bg-[#08432a]"
+                className="px-12 py-5 bg-brand text-white font-black rounded-full hover:bg-brand-dark"
               >
                 সম্পূর্ণ গ্যালারি দেখুন
               </Link>

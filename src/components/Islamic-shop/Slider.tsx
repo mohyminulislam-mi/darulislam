@@ -33,7 +33,7 @@ const ShopHeroSlider = () => {
   };
 
   return (
-    <section className="relative w-full h-[220px] md:h-[300px] lg:h-[500px] mt-16 lg:mt-18 overflow-hidden bg-gray-100">
+    <section className="relative w-full h-[220px] md:h-[300px] lg:h-[500px] mt-16 lg:mt-18 overflow-hidden bg-gray-100 max-w-11/12 mx-auto">
       <Swiper
         modules={[Autoplay, Pagination, EffectFade]}
         effect="fade"

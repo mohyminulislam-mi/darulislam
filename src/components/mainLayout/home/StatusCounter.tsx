@@ -20,7 +20,7 @@ const StatusCounter = () => {
   return (
     <section 
       ref={ref}
-      className="py-4 md:py-8 bg-gradient-to-br from-green-50 via-white to-green-100 relative overflow-hidden"
+      className="py-4 md:py-8 bg-gradient-to-br from-green-50 via-white to-green-100 relative overflow-hidden max-w-11/12 mx-auto"
     >
       {/* background */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-green-200 opacity-30 rounded-full blur-3xl"></div>

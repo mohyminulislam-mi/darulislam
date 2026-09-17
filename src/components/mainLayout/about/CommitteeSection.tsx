@@ -84,7 +84,7 @@ export default function CommitteeSection({
     activeCategory === "উস্তাদ প্যানেল" ? maleTeachers : femaleTeachers;
 
   return (
-    <section className="w-full bg-[#051112] text-white py-16 px-4 md:px-12 lg:px-24 font-sans text-center relative overflow-hidden">
+    <section className="w-full bg-[#051112] text-white py-16 px-4 md:px-12 lg:px-24 font-sans text-center relative overflow-hidden max-w-11/12 mx-auto">
       <div className="max-w-7xl mx-auto space-y-10">
         {/* Top Header */}
         <div className="space-y-3">

@@ -311,7 +311,7 @@ export default function EnrollPage() {
           onSubmit={handleSubmit(handlePaymentSubmit)}
           className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start"
         >
-          <section className="lg:col-span-7 bg-white rounded-[2.5rem] p-6 shadow-xl border border-black/5 space-y-6">
+          <section className="lg:col-span-7 bg-white rounded-[2.5rem] p-6 shadow-xl border border-black/5 space-y-6 max-w-11/12 mx-auto">
             <div className="flex items-center gap-4 bg-gray-50/50 p-4 rounded-2xl border border-neutral-100">
               <div className="w-12 h-12 bg-[#0B5D3B]/10 rounded-2xl flex items-center justify-center text-[#0B5D3B] shrink-0">
                 <CheckCircle2 size={24} />

@@ -34,7 +34,7 @@ const LibrarySlider = () => {
     return () => clearInterval(t);
   }, []);
   return (
-    <section>
+    <section className="max-w-11/12 mx-auto">
       <div className="relative h-60 md:h-80 lg:h-[400px] rounded-[2rem] overflow-hidden shadow-xl">
         <AnimatePresence mode="wait">
           <motion.div

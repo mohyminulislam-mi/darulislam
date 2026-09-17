@@ -57,7 +57,7 @@ export default function CertificateVerificationClient() {
   };
 
   return (
-    <section className="min-h-screen bg-[#F7FBF7] py-12 px-4 md:px-8 mt-12">
+    <section className="min-h-screen bg-[#F7FBF7] py-12 px-4 md:px-8 mt-12 max-w-11/12 mx-auto">
       {/* ব্যানার সেকশন */}
       <div className="max-w-4xl mx-auto text-center mb-10 space-y-4">
         <span className="bg-[#8FE3A9]/20 text-[#0B3D2E] text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full inline-flex items-center gap-1.5 justify-center">

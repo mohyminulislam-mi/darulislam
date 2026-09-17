@@ -87,7 +87,7 @@ export default function CartPage() {
   if (!isMounted) return null;
 
   return (
-    <section className="min-h-screen bg-neutral-50/50 pt-24 pb-12 md:pt-32 md:pb-20 font-sans transition-all duration-300">
+    <section className="min-h-screen bg-neutral-50/50 pt-24 pb-12 md:pt-32 md:pb-20 font-sans transition-all duration-300 max-w-11/12 mx-auto">
       <div className="max-w-6xl mx-auto px-4">
         {/* SEO Header - Semantic Structure */}
         <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">

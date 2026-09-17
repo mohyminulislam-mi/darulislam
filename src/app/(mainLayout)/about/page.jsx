@@ -41,26 +41,26 @@ export default async function AboutPage() {
 
   return (
     <>
-      <section>
+      <section className="max-w-11/12 mx-auto">
         <AboutSection data={content?.hero || {}} />
       </section>
-      <section>
+      <section className="max-w-11/12 mx-auto">
         <SuccessStats data={content?.stats || {}} />
       </section>
-      <section>
+      <section className="max-w-11/12 mx-auto">
         <DeeniShikhkhaSection data={content?.importance || {}} />
       </section>
-      <section>
+      <section className="max-w-11/12 mx-auto">
         <TeamGallery data={content?.team_gallery || {}} />
       </section>
-      <section>
+      <section className="max-w-11/12 mx-auto">
         <CommitteeSection
           data={content?.committee || {}}
           maleTeachers={maleTeachers}
           femaleTeachers={femaleTeachers}
         />
       </section>
-      <section>
+      <section className="max-w-11/12 mx-auto">
         <BookPromotionBanner />
       </section>
     </>

@@ -168,8 +168,8 @@ const StudentSlider = () => {
   if (isError) return null;
 
   return (
-    <section className="px-4 py-8 md:py-12 lg:px-8">
-      <div className="bg-[#faf6ec] shadow-[inset_0_0_20px_rgba(245,158,11,0.4)] max-w-7xl mx-auto px-5 py-8 rounded-3xl">
+    <section className="px-4 py-8 md:py-12 lg:px-8 max-w-11/12 mx-auto">
+      <div className="bg-secondary shadow-[inset_0_0_20px_rgba(234,177,58,0.2)] max-w-7xl mx-auto px-5 py-8 rounded-3xl">
         {/* Header */}
         <div className="mb-10 text-center">
           <span className="inline-block rounded-full bg-green-100 px-4 py-1 text-xs font-bold text-green-700">

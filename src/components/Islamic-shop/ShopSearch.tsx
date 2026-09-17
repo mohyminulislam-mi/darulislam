@@ -91,7 +91,7 @@ const ProductSearchSection = () => {
   };
 
   return (
-    <section className="px-4 py-6 max-w-7xl mx-auto bg-white">
+    <section className="px-4 py-6 max-w-7xl mx-auto bg-white max-w-11/12 mx-auto">
       <div className="bg-neutral-50 border border-neutral-100 p-4 rounded-3xl shadow-xs grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
         <div className="relative md:col-span-7 w-full">
           <Search

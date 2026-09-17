@@ -22,7 +22,7 @@ import "swiper/css/navigation";
 
 const CourseCardSkeleton = () => (
   <article
-    className="bg-white rounded-[2rem] border border-slate-100 p-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.05)] h-full flex flex-col relative overflow-hidden animate-pulse w-full"
+    className="bg-white rounded-[2rem] border border-slate-100 p-3.5 shadow-[0_4px_20px_rgba(14,61,47,0.06)] h-full flex flex-col relative overflow-hidden animate-pulse w-full"
     aria-busy="true"
   >
     <div className="relative aspect-[16/10] w-full bg-slate-100 rounded-2xl overflow-hidden shrink-0">
@@ -94,11 +94,11 @@ export default function HomeFeaturedCourses() {
 
   return (
     <section
-      className="px-4 py-12 md:py-20"
+      className="px-4 py-12 md:py-20 max-w-11/12 mx-auto"
       aria-label="ফিচার্ড কোর্সসমূহ"
     >
       {/* 🟢 এখানে parent container থেকে 'group' সরিয়ে দেওয়া হয়েছে */}
-      <div className="bg-[#faf6ec] shadow-[inset_0_0_20px_rgba(245,158,11,0.4)] max-w-7xl mx-auto px-5 py-6 rounded-2xl relative">
+      <div className="bg-secondary shadow-[inset_0_0_20px_rgba(234,177,58,0.2)] max-w-7xl mx-auto px-5 py-6 rounded-2xl relative">
         <div className="mx-auto mb-12 max-w-lg space-y-3 text-center">
           <h2 className="text-2xl font-extrabold text-green-800 lg:text-4xl">
             আমাদের বিশেষ কোর্সসমূহ
@@ -164,7 +164,7 @@ export default function HomeFeaturedCourses() {
                       className="block h-full cursor-pointer group"
                     >
                       {/* 🟢 hover:scale-[1.02] এবং hover:-translate-y-1.5 দিয়ে স্মুথ কার্ড অ্যানিমেশন যোগ করা হলো */}
-                      <article className="bg-white rounded-[2rem] border border-slate-100 p-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_12px_35px_rgba(11,93,59,0.15)] hover:border-emerald-200 hover:scale-[1.02] hover:-translate-y-1.5 transition-all duration-300 ease-out h-full flex flex-col relative overflow-hidden">
+                      <article className="bg-white rounded-[2rem] border border-slate-100 p-3.5 shadow-[0_4px_20px_rgba(14,61,47,0.06)] hover:shadow-[0_12px_35px_rgba(14,61,47,0.15)] hover:border-emerald-200 hover:scale-[1.02] hover:-translate-y-1.5 transition-all duration-300 ease-out h-full flex flex-col relative overflow-hidden">
                         <div className="relative aspect-[16/10] w-full bg-slate-50 rounded-2xl overflow-hidden shrink-0 shadow-3xs">
                           <Image
                             src={course.image || "/images/course-fallback.png"}
@@ -174,7 +174,7 @@ export default function HomeFeaturedCourses() {
                             className="object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
                           />
                           {course.label && (
-                            <span className="absolute top-3 right-3 bg-[#0B5D3B] text-white font-black text-[10px] px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            <span className="absolute top-3 right-3 bg-brand text-white font-black text-[10px] px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
                               {course.label}
                             </span>
                           )}
@@ -184,7 +184,7 @@ export default function HomeFeaturedCourses() {
                           <div className="space-y-3">
                             <div className="flex items-center justify-between text-[11px] font-bold text-slate-400">
                               <span className="flex items-center gap-1 bg-slate-50 text-slate-500 px-2.5 py-1 rounded-md border border-slate-100">
-                                <Tag size={12} className="text-[#0B5D3B]" />
+                                <Tag size={12} className="text-brand" />
                                 {course.category?.name ||
                                   (isAcademic ? "Academic" : "General")}
                               </span>
@@ -194,7 +194,7 @@ export default function HomeFeaturedCourses() {
                               </span>
                             </div>
 
-                            <h3 className="text-base font-black text-slate-800 martial-title leading-snug tracking-tight group-hover:text-[#0B5D3B] transition-colors duration-300 line-clamp-2 min-h-[44px]">
+                            <h3 className="text-base font-black text-slate-800 martial-title leading-snug tracking-tight group-hover:text-brand transition-colors duration-300 line-clamp-2 min-h-[44px]">
                               {course.title}
                             </h3>
                           </div>
@@ -221,7 +221,7 @@ export default function HomeFeaturedCourses() {
                             </div>
 
                             <div
-                              className="py-2.5 px-4 bg-slate-900 text-white rounded-xl text-xs font-medium group-hover:bg-[#0B5D3B] transition-colors duration-300 flex items-center gap-1.5 shadow-sm"
+                              className="py-2.5 px-4 bg-slate-900 text-white rounded-xl text-xs font-medium group-hover:bg-brand transition-colors duration-300 flex items-center gap-1.5 shadow-sm"
                               aria-label={`"${course.title}" কোর্সের বিস্তারিত বিবরণ দেখুন`}
                             >
                               বিস্তারিত দেখুন

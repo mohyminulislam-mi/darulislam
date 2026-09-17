@@ -26,7 +26,7 @@ export default function DeeniShikhkhaSection({ data }: DeeniShikhkhaProps) {
       : fallbackParagraphs;
 
   return (
-    <section className="w-full bg-[#EBF4FA] py-16 px-6 md:px-12 lg:px-24 flex items-center justify-center font-sans relative overflow-hidden">
+    <section className="w-full bg-[#EBF4FA] py-16 px-6 md:px-12 lg:px-24 flex items-center justify-center font-sans relative overflow-hidden max-w-11/12 mx-auto">
       {/* Main Card Container */}
       <div className="max-w-6xl w-full bg-white/80 backdrop-blur-md rounded-3xl p-8 md:p-12 shadow-xl border border-white/40 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start relative z-10">
         {/* Left Side: Profile Photo */}

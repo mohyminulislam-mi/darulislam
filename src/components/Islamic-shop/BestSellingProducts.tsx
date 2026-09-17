@@ -31,7 +31,7 @@ const BestSellingProducts = () => {
   return (
     <section
       id="best-selling-section"
-      className="px-4 py-12 max-w-7xl mx-auto bg-white"
+      className="px-4 py-12 max-w-7xl mx-auto bg-white max-w-11/12 mx-auto"
     >
       {/* হেডার সেকশন */}
       <div className="flex justify-between items-end mb-8">
